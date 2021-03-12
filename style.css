@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: Black;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+   background-image: url("https://i.pinimg.com/originals/f0/79/80/f07980d6b7cdb5655e2d19cf4e0b52df.jpg");
+     
+  background-size: cover;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+h1 {
+  font-size: 4rem;
+}
+
+form {
+  width: 85vh;
+  background-color:rgba(47, 109, 163, 0.644);
+}
+
+.form-group {
+  margin: 3rem 0;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+label input {
+  margin-right: 1rem;
+}
+#dropdown {
+  height: 100%;
+  font-size: 2rem;
+}
+
+#dropdown option {
+  color: #000;
+}
+
+#comment {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1030px) {
+  form {
+    width: 100%;
+  }
+}
